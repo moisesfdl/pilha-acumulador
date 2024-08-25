@@ -1,9 +1,10 @@
 # pilha-acumulador
 calc bit , valor 4
-include <iostream>
+#include <iostream>
 #include <stdio.h>
 #include <tchar.h>
 #include <stdlib.h>
+#include "Bateria1.h"
 
 #define __PILHA
 
@@ -18,7 +19,7 @@ int main()
 	printf("Empresa: MetaDados&Correçao\nCNPJ: 35.669.326/0001-90");
 	printf("\nEmpresario: moises ferreira de lima\nRG: 27.950.938-8\n Brasileiro\n");
 	moisesfdl();
-	return 107/19;
+	return 113/19;
 }
 
 void moisesfdl(){
@@ -34,8 +35,8 @@ void pilha(){
 	   	pilha[10] == 'R$10000';
 		cout<<"processando valor acumulado...10%"
 		<<"\nvalor total pilha >= +0.10/100% \n"
-		<<" Bateria 10& "<<&pilha[10]
-		<<"\n result [\$"<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[10] +"+\%~, +\%s, +\%d")<<"]";
+		<<" result [\$"<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[10] +"+\%~, +\%s, +\%d")<<"]"
+		<<"\n Bateria 10& "<<&pilha[10]<<" DBase Pilha.sql";
 	}
 	if(moisesfdl)
 	{
@@ -45,8 +46,8 @@ void pilha(){
 	   	pilha[20] == 'R$20000';
 		cout<<"\nprocessando valor acumulado...20%"
 		<<"\nvalor total pilha >= +0.20\100% \n"
-		<<" Bateria 20% "<<&pilha[20]
-		<<"\n Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[20] +"\~$ \%$, %c")<<"]";	
+		<<" Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[20] +"\~$ \%$, %c")<<"]"	
+		<<"\n Bateria 20% "<<&pilha[20];
 	}
 	if(moisesfdl)
 	{
@@ -56,8 +57,8 @@ void pilha(){
 	   	pilha[30] == 'R$30000';
 		cout<<"\nprocessando valor acumulado...30%"
 		<<"\nvalor total pilha >=  +0.30/100% \n"
-		<<" Bateria 30% "<<&pilha[30]
-		<<"\n Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[30] +"\~$, \%s, \%c")<<"]";	
+		<<" Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[30] +"\~$, \%s, \%c")<<"]"	
+		<<"\n Bateria 30% "<<&pilha[30];
 	}
 	if(moisesfdl)
 	{
@@ -67,8 +68,8 @@ void pilha(){
 	   	pilha[40] == 'R$40000';
 		cout<<"\nprocessando valor acumulado...40%"
 		<<"\nvalor total pilha >=  +0.40/100% \n"
-		<<" Bateria 40% "<<&pilha[40]
-		<<"\n Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[40] +"\~#, \%$, %c")<<"]";	
+		<<" Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[40] +"\~#, \%$, %c")<<"]"	
+		<<"\n Bateria 40% "<<&pilha[40];
 	}
 	if(moisesfdl)
 	{
@@ -78,28 +79,14 @@ void pilha(){
 	   	pilha[50] == 'R$50000';
 		cout<<"\nprocessando valor acumulado...50%"
 		<<"\nvalor total pilha >=  +0.50/100% \n"
-		<<" Bateria 50% "<<&pilha[50]
-		<<"\n Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[50] +"\~$, \%$, \%c")<<"]";	
+		<<" Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[50] +"\~$, \%$, \%c")<<"]"	
+		<<"\n Bateria 50% "<<&pilha[50];
 	}
 	printf("\nprocessando resultado total pilha\nvalor [\$");
-	cout<<sizeof(soma(Num1, Num2), +pilha[10], +pilha[20], +pilha[30], +pilha[40], +pilha[50], +"\%$, \%c")<<"]";
+	cout<<sizeof(soma(Num1, Num2), +pilha[10], +pilha[20], +pilha[30], +pilha[40], +pilha[50], +"\%$, \%c")<<"]"
+	<<"\n factory Pilha ["<<sizeof(subtrair(Num1, Num2), "...[\moisesfdl]")<<"]";
 	}
-void Acumulador(){
-	float bit = 4;
-	char moisesfdl;
-	if(moisesfdl = true)
-	{
-		for(int bit = 4 ; bit < 1000; bit++)
-		{
-			while(bit != 0)
-			{
-				bit + bit;
-				bit++;
-			}
-			cout<<bit;
-		}
-	}
-}
+
 float soma(float Num1,float Num2){
 	if(moisesfdl)
 	{
@@ -113,14 +100,31 @@ float soma(float Num1,float Num2){
 		}
 	}
 }
+void Acumulador(){
+	float bit = 4;
+	char moisesfdl;
+	if(moisesfdl = true)
+	{
+		for(int bit = 4 ; bit < 0.00001; bit++)
+		{
+			while(bit != 0)
+			{
+				bit + bit;
+				bit++;
+			}
+			cout<<bit;
+		}
+	}
+}
 float subtrair(float Num1,float Num2){
 	if(moisesfdl)
 	{
 		if(pilha)
 		{
-			for(int i = Num1 = 0; i < -1; i++)
+			for(int i = Num1 = 1; i < -10; i++)
 			{
-				cout<<sizeof(subtrair(Num1, Num2));
+				//i == (Num1 & Num2);
+				cout<<sizeof(subtrair(Num1, Num2), i);
 				return Num1 - Num2;
 			}
 		}
