@@ -1,6 +1,6 @@
 # pilha-acumulador
 calc bit , valor 4
-#include <iostream>
+include <iostream>
 #include <stdio.h>
 #include <tchar.h>
 #include <stdlib.h>
@@ -18,7 +18,7 @@ int main()
 	printf("Empresa: MetaDados&Correçao\nCNPJ: 35.669.326/0001-90");
 	printf("\nEmpresario: moises ferreira de lima\nRG: 27.950.938-8\n Brasileiro\n");
 	moisesfdl();
-	return 1;
+	return 107/19;
 }
 
 void moisesfdl(){
@@ -33,8 +33,9 @@ void pilha(){
 	   	valor[1] == pilha[10];
 	   	pilha[10] == 'R$10000';
 		cout<<"processando valor acumulado...10%"
-		<<"\nvalor total pilha >= +0.10/100% [\$"
-		<<sizeof(soma(Num1, Num2), Acumulador(), pilha[1]+"+\%~, +\%s, +\%d")<<"]";
+		<<"\nvalor total pilha >= +0.10/100% \n"
+		<<" Bateria 10& "<<&pilha[10]
+		<<"\n result [\$"<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[10] +"+\%~, +\%s, +\%d")<<"]";
 	}
 	if(moisesfdl)
 	{
@@ -43,8 +44,9 @@ void pilha(){
 	   	valor[1] == pilha[20];
 	   	pilha[20] == 'R$20000';
 		cout<<"\nprocessando valor acumulado...20%"
-		<<"\nvalor total pilha >= +0.20\100% : [\$"
-		<<sizeof(soma(Num1, Num2), Acumulador(), pilha[1]+"\~$ \%$, %c")<<"]";	
+		<<"\nvalor total pilha >= +0.20\100% \n"
+		<<" Bateria 20% "<<&pilha[20]
+		<<"\n Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[20] +"\~$ \%$, %c")<<"]";	
 	}
 	if(moisesfdl)
 	{
@@ -53,8 +55,9 @@ void pilha(){
 	   	valor[1] == pilha[30];
 	   	pilha[30] == 'R$30000';
 		cout<<"\nprocessando valor acumulado...30%"
-		<<"\nvalor total pilha >=  +0.30/100% : [\$"
-		<<sizeof(soma(Num1, Num2), Acumulador(), pilha[1]+"\~$, \%s, \%c")<<"]";	
+		<<"\nvalor total pilha >=  +0.30/100% \n"
+		<<" Bateria 30% "<<&pilha[30]
+		<<"\n Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[30] +"\~$, \%s, \%c")<<"]";	
 	}
 	if(moisesfdl)
 	{
@@ -63,8 +66,9 @@ void pilha(){
 	   	valor[1] == pilha[40];
 	   	pilha[40] == 'R$40000';
 		cout<<"\nprocessando valor acumulado...40%"
-		<<"\nvalor total pilha >=  +0.40/100% : [\$"
-		<<sizeof(soma(Num1, Num2), Acumulador(), pilha[1]+"\~#, \%$, %c")<<"]";	
+		<<"\nvalor total pilha >=  +0.40/100% \n"
+		<<" Bateria 40% "<<&pilha[40]
+		<<"\n Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[40] +"\~#, \%$, %c")<<"]";	
 	}
 	if(moisesfdl)
 	{
@@ -73,13 +77,13 @@ void pilha(){
 	   	valor[1] == pilha[50];
 	   	pilha[50] == 'R$50000';
 		cout<<"\nprocessando valor acumulado...50%"
-		<<"\nvalor total pilha >=  +0.50/100% : [\$"
-		<<sizeof(soma(Num1, Num2), Acumulador(), pilha[1]+"\~$, \%$, \%c")<<"]";	
+		<<"\nvalor total pilha >=  +0.50/100% \n"
+		<<" Bateria 50% "<<&pilha[50]
+		<<"\n Result ["<<sizeof(soma(Num1, Num2), Acumulador(), +pilha[50] +"\~$, \%$, \%c")<<"]";	
 	}
 	printf("\nprocessando resultado total pilha\nvalor [\$");
-	cout<<sizeof(soma(Num1, Num2), Acumulador(), "\%d", +pilha[10], +pilha[20], +pilha[30], +pilha[40], +pilha[50], +"\%$, \%c")<<"]";
+	cout<<sizeof(soma(Num1, Num2), +pilha[10], +pilha[20], +pilha[30], +pilha[40], +pilha[50], +"\%$, \%c")<<"]";
 	}
-
 void Acumulador(){
 	float bit = 4;
 	char moisesfdl;
